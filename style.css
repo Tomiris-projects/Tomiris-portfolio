@@ -121,3 +121,32 @@ header {
   text-align: center;
   padding: 60px 20px;
 }
+.buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  margin: 10px;
+  border: 1px solid #38bdf8;
+  background: transparent;
+  color: #38bdf8;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* наведение */
+.btn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
+}
+
+/* нажатие */
+.btn:active {
+  transform: scale(0.95);
+}
