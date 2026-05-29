@@ -1,152 +1,122 @@
-/* ===== ОБЩИЙ СТИЛЬ ===== */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
-  line-height: 1.6;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, sans-serif;
 }
 
-/* ===== КОНТЕЙНЕР ===== */
-section {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
+body{
+background:#F7F8FC;
+color:#1A1A1A;
+line-height:1.6;
 }
 
-/* ===== ЗАГОЛОВКИ ===== */
-h1, h2 {
-  text-align: center;
-  color: #38bdf8;
+/* HEADER */
+
+header{
+background:#1E2A44;
+color:white;
+text-align:center;
+padding:80px 20px;
 }
 
-p {
-  color: #94a3b8;
-  text-align: center;
+header h1{
+font-size:48px;
+margin-bottom:10px;
 }
 
-/* ===== КНОПКИ ===== */
-button, .btn {
-  display: inline-block;
-  padding: 12px 24px;
-  margin-top: 15px;
-  border: 1px solid #38bdf8;
-  background: transparent;
-  color: #38bdf8;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.3s;
+header p{
+font-size:20px;
+opacity:0.9;
 }
 
-button:hover, .btn:hover {
-  background: #38bdf8;
-  color: #0f172a;
-  transform: scale(1.08);
+/* BUTTONS */
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+margin-top:25px;
+flex-wrap:wrap;
 }
 
-button:active, .btn:active {
-  transform: scale(0.95);
+button{
+background:#F0F2F8;
+color:#1A1A1A;
+border:none;
+padding:15px 25px;
+border-radius:12px;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
 }
 
-/* ===== КАРТИНКИ ===== */
-.img {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin: 20px auto;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-  transition: 0.3s;
+button:hover{
+transform:translateY(-3px);
 }
 
-.img:hover {
-  transform: scale(1.03);
+/* SECTIONS */
+
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
 }
 
-/* ===== СЕКЦИИ ===== */
-section {
-  background: #111c33;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+h2{
+color:#1E2A44;
+margin-bottom:20px;
+font-size:32px;
 }
 
-/* ===== СПИСКИ ===== */
-ul {
-  list-style: none;
-  padding: 0;
-  text-align: center;
+/* CARDS */
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 4px 20px rgba(0,0,0,0.08);
+margin-bottom:20px;
 }
 
-li {
-  margin: 8px 0;
-  color: #cbd5e1;
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
 }
 
-/* ===== PROGRESS BARS ===== */
-.progress {
-  margin-top: 20px;
+.skill{
+background:#EAF0FF;
+color:#1A1A1A;
+padding:12px 18px;
+border-radius:30px;
+font-weight:bold;
 }
 
-.bar {
-  margin-bottom: 15px;
+/* PROJECTS */
+
+.project{
+border-left:5px solid #355C98;
 }
 
-.bar p {
-  margin: 0 0 5px 0;
-  text-align: left;
+/* PROJECT IMAGES */
+
+.project img{
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+object-fit:cover;
 }
 
-.line {
-  width: 100%;
-  height: 10px;
-  background: #1e293b;
-  border-radius: 20px;
-  overflow: hidden;
-}
+/* FOOTER */
 
-.fill {
-  height: 100%;
-  border-radius: 20px;
-  transition: 1s;
-}
-
-/* уровни */
-.html { width: 80%; background: #38bdf8; }
-.js { width: 40%; background: #facc15; }
-.pm { width: 60%; background: #34d399; }
-.en { width: 50%; background: #a78bfa; }
-
-/* ===== HEADER (если есть) ===== */
-header {
-  text-align: center;
-  padding: 60px 20px;
-}
-.buttons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.btn {
-  padding: 12px 24px;
-  margin: 10px;
-  border: 1px solid #38bdf8;
-  background: transparent;
-  color: #38bdf8;
-  border-radius: 12px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: all 0.3s ease;
-}
-
-/* наведение */
-.btn:hover {
-  background: #38bdf8;
-  color: #0f172a;
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
-}
-
-/* нажатие */
-.btn:active {
-  transform: scale(0.95);
+footer{
+background:#1E2A44;
+color:white;
+text-align:center;
+padding:40px;
+margin-top:40px;
 }
