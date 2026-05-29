@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tomiris Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#F7F8FC;
+color:#1A1A1A;
+}
+
+/* HEADER */
+header{
+background:#1E2A44;
+color:white;
+text-align:center;
+padding:80px 20px;
+}
+
+header h1{
+font-size:48px;
+}
+
+header p{
+font-size:18px;
+margin-top:10px;
+opacity:0.9;
+}
+
+/* BUTTONS */
+.buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.btn{
+background:#F0F2F8;
+color:#1A1A1A;
+padding:12px 20px;
+border-radius:12px;
+text-decoration:none;
+transition:0.3s;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+/* SECTIONS */
+section{
+max-width:1000px;
+margin:auto;
+padding:60px 20px;
+}
+
+h2{
+color:#1E2A44;
+margin-bottom:20px;
+font-size:30px;
+}
+
+/* CARDS */
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+margin-bottom:20px;
+}
+
+/* PROJECT IMAGE */
+.project img{
+width:100%;
+border-radius:15px;
+margin-bottom:15px;
+}
+
+/* SKILLS */
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#E8EEFF;
+padding:10px 15px;
+border-radius:20px;
+}
+
+/* CONTACT FORM */
+input, textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:10px;
+border:1px solid #ddd;
+}
+
+textarea{
+height:120px;
+}
+
+button{
+margin-top:10px;
+padding:12px 20px;
+background:#1E2A44;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+/* FOOTER */
+footer{
+background:#1E2A44;
+color:white;
+text-align:center;
+padding:40px;
+margin-top:40px;
+}
+
+html{
+scroll-behavior:smooth;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Tomiris Sagenova</h1>
+<p>Future IT Project Manager | Student | Dreaming Big</p>
+
+<div class="buttons">
+<a href="#projects" class="btn">My Projects</a>
+<a href="#about" class="btn">About Me</a>
+<a href="#contact" class="btn">Contact Me</a>
+</div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Me</h2>
+
+<div class="card">
+<p>
+Hello! My name is Tomiris. I am interested in IT project management, leadership, innovation, and international education.
+I enjoy learning new skills, working on projects, and improving myself every day.
+</p>
+
+<p style="margin-top:10px;">
+My goal is to study abroad, improve English, become an IT Project Manager, and create meaningful projects.
+</p>
+</div>
+
+<div class="card">
+<h3>Skills</h3>
+<div class="skills">
+<div class="skill">Leadership</div>
+<div class="skill">Communication</div>
+<div class="skill">Project Management</div>
+<div class="skill">English</div>
+<div class="skill">Teamwork</div>
+<div class="skill">Research</div>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+<h2>My Projects</h2>
+
+<div class="card project">
+<img src="file:///C:/Users/Lenov/OneDrive/Рабочий%20стол/все%20папки/TOMIRISSSSS/project1.png" alt="Project 1">
+<h3>Marketing Project</h3>
+<p>Research about marketing psychology and consumer behavior.</p>
+</div>
+
+<div class="card project">
+<img src="file:///C:/Users/Lenov/OneDrive/Рабочий%20стол/все%20папки/TOMIRISSSSS/project2.png" alt="Project 2">
+<h3>Motivation vs Discipline</h3>
+<p>Research about productivity, habits, and consistency.</p>
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section id="file:///C:/Users/Lenov/OneDrive/Рабочий%20стол/все%20папки/itog/contact.html">
+<h2>Contact Me</h2>
+
+<div class="card">
+<p>You can contact me here:</p>
+
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message"></textarea>
+<button type="submit">Send</button>
+</form>
+
+<p style="margin-top:15px;">
+Or add your link here (Instagram / Gmail / Telegram)
+</p>
+</div>
+</section>
+
+<footer>
+<h3>Thank you for visiting my portfolio</h3>
+<p>Tomiris Sagenova</p>
+</footer>
+
+</body>
+</html>
