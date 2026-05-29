@@ -40,16 +40,20 @@ margin-top:25px;
 flex-wrap:wrap;
 }
 
-button{
+.btn{
 background:#F0F2F8;
 color:#1A1A1A;
-border:none;
+text-decoration:none;
 padding:15px 25px;
 border-radius:12px;
 font-size:16px;
-cursor:pointer;
 transition:0.3s;
 box-shadow:0 2px 8px rgba(0,0,0,0.08);
+display:inline-block;
+}
+
+.btn:hover{
+transform:translateY(-3px);
 }
 
 button:hover{
@@ -120,3 +124,4 @@ text-align:center;
 padding:40px;
 margin-top:40px;
 }
+html{scroll-behavior:smooth;}
